@@ -1,0 +1,312 @@
+CRITICAL - 2022-09-06 13:07:34 --> Undefined index: filepath
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 175.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: filepath', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 175, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1304): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:08:04 --> Undefined index: user_id
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 178.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_id', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 178, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1304): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:08:34 --> Undefined index: first_name
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 180.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: first_name', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 180, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1304): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:10:14 --> A non-numeric value encountered
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 175.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 175, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1304): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:26:13 --> Undefined variable: baseURL
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 175.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: baseURL', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 175, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1304): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:32:01 --> Undefined variable: filepath
+in FCPATH\modules\Admin\Controllers\index.php on line 1273.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filepath', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1273, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 13:32:27 --> Undefined variable: cars
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 171.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cars', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 171, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1173): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicleaddition()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:00:59 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1296): redirect('index/addNewCars')
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:24:29 --> Undefined variable: id
+in APPPATH\Models\Admin_Users.php on line 151.
+ 1 APPPATH\Models\Admin_Users.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\Admin_Users.php', 151, [])
+ 2 FCPATH\modules\Admin\Controllers\index.php(1321): App\Models\Admin_Users->session_id()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:26:18 --> Call to undefined method App\Models\Cars_Db::get_row
+in SYSTEMPATH\Model.php on line 773.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1331): CodeIgniter\Model->__call('get_row', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:28:09 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1341): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:32:44 --> Array to string conversion
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 156.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:33:01 --> Array to string conversion
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 156.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 14:35:47 --> Unknown column 'role_id' in 'where clause'
+CRITICAL - 2022-09-06 14:35:47 --> Unknown column 'role_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM cars_db where role_id = 44', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM cars_db where role_id = 44')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM cars_db where role_id = 44')
+ 4 APPPATH\Models\Cars_Db.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM cars_db where role_id = 44')
+ 5 FCPATH\modules\Admin\Controllers\index.php(1332): App\Models\Cars_Db->get_row('44')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:36:09 --> Object of class stdClass could not be converted to string
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 156.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 4 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:36:17 --> Object of class stdClass could not be converted to string
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 156.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 4 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:42:25 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 217.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:42:56 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 217.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:44:14 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 217.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:45:27 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 219.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:47:21 --> Undefined variable: row
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 167.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1342): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 14:48:31 --> Undefined variable: title
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 130.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1211): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNewCars()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:08:41 --> Undefined variable: id
+in FCPATH\modules\Admin\Controllers\index.php on line 1341.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1341, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 15:09:23 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1395): redirect('addnewcars')
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 19:31:54 --> Unknown column 'city' in 'field list'
+CRITICAL - 2022-09-06 19:31:54 --> Unknown column 'city' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cities` (`city`, `status_ind`, `created_date`, `added_by`) VALUES (\'Bangalore\', 1, \'2022-09-06\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cities` (`city`, `status_ind`, `created_date`, `added_by`) VALUES (\'Bangalore\', 1, \'2022-09-06\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cities` (`city`, `status_ind`, `created_date`, `added_by`) VALUES (\'Bangalore\', 1, \'2022-09-06\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cities` (`city`, `status_ind`, `created_date`, `added_by`) VALUES (:city:, :status_ind:, :created_date:, :added_by:)', [...], false)
+ 5 APPPATH\Models\Cities.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 FCPATH\modules\Admin\Controllers\Addcities.php(126): App\Models\Cities->dataInsert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->addnewcities()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:32:27 --> Call to a member function viewcities() on null
+in FCPATH\modules\Admin\Controllers\Addcities.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:32:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Cities.php on line 37.
+ 1 FCPATH\modules\Admin\Controllers\Addcities.php(79): App\Models\Cities->viewcities()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:36:35 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Cities.php on line 36.
+ 1 FCPATH\modules\Admin\Controllers\Addcities.php(79): App\Models\Cities->viewcities()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 20:39:26 --> Column 'status_ind' in where clause is ambiguous
+CRITICAL - 2022-09-06 20:39:26 --> Column 'status_ind' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id where status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id where status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id where status_ind = 1')
+ 4 APPPATH\Models\Cities.php(32): CodeIgniter\Database\BaseConnection->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id where status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(79): App\Models\Cities->viewcities()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:39:57 --> Undefined variable: pade_title2
+in FCPATH\modules\Admin\Views\pages\cities\addnewcities.php on line 141.
+ 1 FCPATH\modules\Admin\Views\pages\cities\addnewcities.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pade_title2', 'FCPATH\\modules\\Admin\\Views\\pages\\cities\\addnewcities.php', 141, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\cities\\addnewcities.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(84): view('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:41:25 --> Cannot use object of type stdClass as array
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 176.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(84): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 20:41:46 --> Cannot use object of type stdClass as array
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 176.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(84): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

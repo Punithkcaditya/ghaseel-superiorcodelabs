@@ -1,0 +1,208 @@
+CRITICAL - 2022-09-07 12:48:28 --> Undefined variable: row
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 177.
+ 1 FCPATH\modules\Admin\Views\pages\cities\citylist.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'FCPATH\\modules\\Admin\\Views\\pages\\cities\\citylist.php', 177, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\cities\\citylist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(85): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 12:48:58 --> Cannot use object of type stdClass as array
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 177.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(85): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 12:52:04 --> Cannot use object of type stdClass as array
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(85): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 12:52:37 --> Cannot use object of type stdClass as array
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 179.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(85): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 12:53:36 --> Undefined variable: cars
+in FCPATH\modules\Admin\Views\pages\cities\citylist.php on line 192.
+ 1 FCPATH\modules\Admin\Views\pages\cities\citylist.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cars', 'FCPATH\\modules\\Admin\\Views\\pages\\cities\\citylist.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\cities\\citylist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\citylist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(85): view('Modules\\Admin\\Views\\pages\\cities\\citylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 08:32:15 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 08:37:18 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 08:37:20 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 08:37:20 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 08:40:17 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 08:40:24 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-07 15:37:07 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Models\Cities.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Cities.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cities')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cities')
+ 4 FCPATH\modules\Admin\Controllers\Addcities.php(37): spl_autoload_call('App\\Models\\Cities')
+ 5 SYSTEMPATH\CodeIgniter.php(858): Modules\Admin\Controllers\Addcities->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 16:01:38 --> Unknown column 'city' in 'where clause'
+CRITICAL - 2022-09-07 16:01:38 --> Unknown column 'city' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM cars_db where id = city', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM cars_db where id = city')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM cars_db where id = city')
+ 4 APPPATH\Models\Cars_Db.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM cars_db where id = city')
+ 5 FCPATH\modules\Admin\Controllers\index.php(1423): App\Models\Cars_Db->get_row('city')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('city')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 16:01:49 --> Unknown column 'vehicleaddition' in 'where clause'
+CRITICAL - 2022-09-07 16:01:49 --> Unknown column 'vehicleaddition' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM cars_db where id = vehicleaddition', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM cars_db where id = vehicleaddition')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM cars_db where id = vehicleaddition')
+ 4 APPPATH\Models\Cars_Db.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM cars_db where id = vehicleaddition')
+ 5 FCPATH\modules\Admin\Controllers\index.php(1423): App\Models\Cars_Db->get_row('vehicleaddition')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('vehicleaddition')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 16:31:43 --> Unknown column 'city' in 'where clause'
+CRITICAL - 2022-09-07 16:31:43 --> Unknown column 'city' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM cars_db where id = city', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM cars_db where id = city')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM cars_db where id = city')
+ 4 APPPATH\Models\Cars_Db.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM cars_db where id = city')
+ 5 FCPATH\modules\Admin\Controllers\index.php(1423): App\Models\Cars_Db->get_row('city')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicle_edit('city')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:39:52 --> syntax error, unexpected ';', expecting ')'
+in FCPATH\modules\Admin\Views\pages\cities\addnewcities.php on line 160.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [], true)
+ 3 FCPATH\modules\Admin\Controllers\Addcities.php(125): view('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->editcity('7')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:45:36 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\cities\addnewcities.php on line 269.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [], true)
+ 3 FCPATH\modules\Admin\Controllers\Addcities.php(125): view('Modules\\Admin\\Views\\pages\\cities\\addnewcities', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->editcity('7')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 17:08:18 --> Unknown column 'city' in 'where clause'
+CRITICAL - 2022-09-07 17:08:18 --> Unknown column 'city' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 4 APPPATH\Models\Cities.php(46): CodeIgniter\Database\BaseConnection->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(117): App\Models\Cities->get_row('city')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->editcity('city')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 17:56:46 --> Unknown column 'city' in 'where clause'
+CRITICAL - 2022-09-07 17:56:46 --> Unknown column 'city' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 4 APPPATH\Models\Cities.php(46): CodeIgniter\Database\BaseConnection->query(' SELECT ar.*,u.locations_name as locations_name from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id   where id = city')
+ 5 FCPATH\modules\Admin\Controllers\Addcities.php(117): App\Models\Cities->get_row('city')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcities->editcity('city')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcities))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 18:42:46 --> syntax error, unexpected end of file
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 226.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(1253): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNewCars()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 19:33:32 --> Undefined variable: pade_title1
+in FCPATH\modules\Admin\Views\pages\category\addnewcategory.php on line 172.
+ 1 FCPATH\modules\Admin\Views\pages\category\addnewcategory.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pade_title1', 'FCPATH\\modules\\Admin\\Views\\pages\\category\\addnewcategory.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\category\\addnewcategory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\category\\addnewcategory', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcategory.php(98): view('Modules\\Admin\\Views\\pages\\category\\addnewcategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcategory->addNewCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcategory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 19:33:46 --> Undefined variable: pade_title1
+in FCPATH\modules\Admin\Views\pages\category\addnewcategory.php on line 172.
+ 1 FCPATH\modules\Admin\Views\pages\category\addnewcategory.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pade_title1', 'FCPATH\\modules\\Admin\\Views\\pages\\category\\addnewcategory.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\category\\addnewcategory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\category\\addnewcategory', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcategory.php(98): view('Modules\\Admin\\Views\\pages\\category\\addnewcategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcategory->addNewCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcategory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 20:21:04 --> Undefined variable: pot
+in FCPATH\modules\Admin\Controllers\Addcategory.php on line 227.
+ 1 FCPATH\modules\Admin\Controllers\Addcategory.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pot', 'FCPATH\\modules\\Admin\\Controllers\\Addcategory.php', 227, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcategory->savenewcategories()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcategory))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 20:21:50 --> Unknown column 'type' in 'field list'
+CRITICAL - 2022-09-07 20:21:50 --> Unknown column 'type' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `category` (`category_image`, `type`, `category_name`, `category_description`, `created_at`, `created_by`) VALUES (\'download (1).jpg\', \'image/jpeg\', \'Wash\', \'Heavy Vehicles Car Wash\', \'2022-09-07\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `category` (`category_image`, `type`, `category_name`, `category_description`, `created_at`, `created_by`) VALUES (\'download (1).jpg\', \'image/jpeg\', \'Wash\', \'Heavy Vehicles Car Wash\', \'2022-09-07\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `category` (`category_image`, `type`, `category_name`, `category_description`, `created_at`, `created_by`) VALUES (\'download (1).jpg\', \'image/jpeg\', \'Wash\', \'Heavy Vehicles Car Wash\', \'2022-09-07\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `category` (`category_image`, `type`, `category_name`, `category_description`, `created_at`, `created_by`) VALUES (:category_image:, :type:, :category_name:, :category_description:, :created_at:, :created_by:)', [...], false)
+ 5 FCPATH\modules\Admin\Controllers\Addcategory.php(241): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcategory->savenewcategories()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcategory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

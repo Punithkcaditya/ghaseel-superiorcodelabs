@@ -1,0 +1,317 @@
+CRITICAL - 2022-09-05 13:21:32 --> Undefined variable: id
+in APPPATH\Models\Admin_Users.php on line 151.
+ 1 APPPATH\Models\Admin_Users.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\Admin_Users.php', 151, [])
+ 2 FCPATH\modules\Admin\Controllers\index.php(1028): App\Models\Admin_Users->session_id()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settings()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:24:51 --> Call to undefined method App\Models\Settings_Model::view
+in SYSTEMPATH\Model.php on line 773.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1037): CodeIgniter\Model->__call('view', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settings()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:24:59 --> Call to undefined method App\Models\Settings_Model::view
+in SYSTEMPATH\Model.php on line 773.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1037): CodeIgniter\Model->__call('view', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settings()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:32:47 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\settings.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\settings.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\settings.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\settings', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1047): view('Modules\\Admin\\Views\\pages\\settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:46:25 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1074.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1074): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1074, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:47:07 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1074.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1074): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1074, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:55:39 --> Undefined variable: data_all
+in FCPATH\modules\Admin\Controllers\index.php on line 1076.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1076): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_all', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1076, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:56:52 --> Object of class Modules\Admin\Controllers\Index could not be converted to string
+in FCPATH\modules\Admin\Controllers\index.php on line 1080.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:57:45 --> Array to string conversion
+in APPPATH\Models\settings_model.php on line 36.
+ 1 APPPATH\Models\settings_model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\settings_model.php', 36, [])
+ 2 FCPATH\modules\Admin\Controllers\index.php(1080): App\Models\Settings_Model->is_exist()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:59:05 --> Array to string conversion
+in APPPATH\Models\settings_model.php on line 36.
+ 1 APPPATH\Models\settings_model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\settings_model.php', 36, [])
+ 2 FCPATH\modules\Admin\Controllers\index.php(1080): App\Models\Settings_Model->is_exist()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:00:01 --> Array to string conversion
+in APPPATH\Models\settings_model.php on line 36.
+ 1 APPPATH\Models\settings_model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\settings_model.php', 36, [])
+ 2 FCPATH\modules\Admin\Controllers\index.php(1080): App\Models\Settings_Model->is_exist()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:06:02 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1076.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1076): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1076, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:06:50 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1076.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1076): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1076, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:12:32 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1076.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1076): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1076, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:13:20 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1077.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1077): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1077, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:14:10 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1077.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1077): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1077, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:15:49 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1077.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1077): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1077, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:16:03 --> Indirect modification of overloaded property App\Models\Settings_Model::$data has no effect
+in FCPATH\modules\Admin\Controllers\index.php on line 1077.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1077): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modification of overloaded property App\\Models\\Settings_Model::$data has no effect', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1077, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:16:58 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1080.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1080): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1080, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:18:30 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1080.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1080): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1080, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:21:31 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1081.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1081): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1081, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:22:57 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1079.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1079): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1079, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:35:04 --> Undefined offset: 7
+in FCPATH\modules\Admin\Controllers\index.php on line 1081.
+ 1 FCPATH\modules\Admin\Controllers\index.php(1081): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 7', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 1081, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:46:09 --> Duplicate entry '7' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:46:09 --> Duplicate entry '7' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1080): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:47:15 --> Duplicate entry '7' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:47:15 --> Duplicate entry '7' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1079): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:47:51 --> Duplicate entry '7' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:47:51 --> Duplicate entry '7' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1079): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:49:23 --> Duplicate entry '8' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:49:23 --> Duplicate entry '8' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'8\', `setting_value` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'8\', `setting_value` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'8\', `setting_value` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1081): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:50:05 --> Duplicate entry '7' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:50:05 --> Duplicate entry '7' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1081): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:51:09 --> Duplicate entry '7' for key 'PRIMARY'
+CRITICAL - 2022-09-05 15:51:09 --> Duplicate entry '7' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `setting_id` = \'7\', `setting_value` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `setting_id` = :setting_id:, `setting_value` = :setting_value:', [...], false)
+ 5 APPPATH\Models\settings_model.php(49): CodeIgniter\Database\BaseBuilder->update([...], [])
+ 6 FCPATH\modules\Admin\Controllers\index.php(1081): App\Models\Settings_Model->update_data()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->settingsupdate()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 17:52:05 --> Invalid argument supplied for foreach()
+in FCPATH\modules\Admin\Controllers\index.php on line 864.
+ 1 FCPATH\modules\Admin\Controllers\index.php(864): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 864, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->saveaccess()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 18:50:30 --> Undefined variable: users
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 174.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 174, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1169): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->vehicleaddition()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 19:34:43 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnewcars.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnewcars.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewcars.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewcars', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1271): view('Modules\\Admin\\Views\\pages\\addnewcars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 19:48:41 --> fopen(http://localhost/ghaseel/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/ghaseel/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/ghaseel/public/uploads/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/ghaseel/public/uploads/')
+ 4 FCPATH\modules\Admin\Controllers\index.php(1249): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/ghaseel/public/uploads/', 'Beans.png')
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 19:54:40 --> fopen(http://localhost/ghaseel/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/ghaseel/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/ghaseel/public/uploads/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/ghaseel/public/uploads/')
+ 4 FCPATH\modules\Admin\Controllers\index.php(1243): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/ghaseel/public/uploads/', 'Beans.png')
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 20:23:00 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1294): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 20:25:02 --> Undefined variable: users
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 174.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 174, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(1294): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->formstore()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

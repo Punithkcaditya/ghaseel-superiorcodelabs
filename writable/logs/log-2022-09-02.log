@@ -1,0 +1,386 @@
+ERROR - 2022-09-02 12:39:45 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 12:39:45 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(606): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_rolesedit('addrole', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:50:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_ac...' at line 1
+CRITICAL - 2022-09-02 13:50:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_ac...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*  am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_accesses as a  LEFT JOIN admin_menuitems as am ON a.menuitem_id = am.menuitem_id where a.role_id = 1  ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*  am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_accesses as a  LEFT JOIN admin_menuitems as am ON a.menuitem_id = am.menuitem_id where a.role_id = 1  ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*  am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_accesses as a  LEFT JOIN admin_menuitems as am ON a.menuitem_id = am.menuitem_id where a.role_id = 1  ')
+ 4 APPPATH\Models\admin_roles_accesses_model.php(75): CodeIgniter\Database\BaseConnection->query('SELECT a.*  am.parent_menuitem_id, am.menuitem_link, am.menuitem_text FROM admin_roles_accesses as a  LEFT JOIN admin_menuitems as am ON a.menuitem_id = am.menuitem_id where a.role_id = 1  ')
+ 5 FCPATH\modules\Admin\Controllers\index.php(757): App\Models\Admin_Roles_Accesses_Model->view_access('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('5')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:54:33 --> Undefined property: Modules\Admin\Controllers\Index::$class_name
+in FCPATH\modules\Admin\Controllers\index.php on line 763.
+ 1 FCPATH\modules\Admin\Controllers\index.php(763): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$class_name', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 763, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('4')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:55:02 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\permission.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\permission.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\permission.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\permission.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\permission', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(766): view('Modules\\Admin\\Views\\pages\\permission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('4')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:55:26 --> Undefined variable: admin_users_accesses
+in FCPATH\modules\Admin\Views\pages\permission.php on line 151.
+ 1 FCPATH\modules\Admin\Views\pages\permission.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: admin_users_accesses', 'FCPATH\\modules\\Admin\\Views\\pages\\permission.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\permission.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\permission', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(768): view('Modules\\Admin\\Views\\pages\\permission', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('4')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 14:50:08 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 14:50:08 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 14:50:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'add AND  status_ind = 1' at line 1
+CRITICAL - 2022-09-02 14:50:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'add AND  status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('add')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:58:52 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in FCPATH\modules\Admin\Controllers\index.php on line 808.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('FCPATH\\modules\\Admin\\Controllers\\index.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Admin\\Controllers\\index')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Admin\\Controllers\\index')
+ 4 [internal function]: spl_autoload_call('Modules\\Admin\\Controllers\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\Modules\\Admin\\Controllers\\index', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:58:54 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in FCPATH\modules\Admin\Controllers\index.php on line 808.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('FCPATH\\modules\\Admin\\Controllers\\index.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Admin\\Controllers\\index')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Admin\\Controllers\\index')
+ 4 [internal function]: spl_autoload_call('Modules\\Admin\\Controllers\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\Modules\\Admin\\Controllers\\index', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:58:57 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in FCPATH\modules\Admin\Controllers\index.php on line 808.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('FCPATH\\modules\\Admin\\Controllers\\index.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Admin\\Controllers\\index')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Admin\\Controllers\\index')
+ 4 [internal function]: spl_autoload_call('Modules\\Admin\\Controllers\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\Modules\\Admin\\Controllers\\index', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:58:59 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in FCPATH\modules\Admin\Controllers\index.php on line 808.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('FCPATH\\modules\\Admin\\Controllers\\index.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Admin\\Controllers\\index')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Admin\\Controllers\\index')
+ 4 [internal function]: spl_autoload_call('Modules\\Admin\\Controllers\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\Modules\\Admin\\Controllers\\index', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:59:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in FCPATH\modules\Admin\Controllers\index.php on line 808.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('FCPATH\\modules\\Admin\\Controllers\\index.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Admin\\Controllers\\index')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Admin\\Controllers\\index')
+ 4 [internal function]: spl_autoload_call('Modules\\Admin\\Controllers\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\Modules\\Admin\\Controllers\\index', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 15:15:50 --> Too few arguments to function Modules\Admin\Controllers\Index::savepermission(), 0 passed in C:\xampp\htdocs\ghaseel\system\CodeIgniter.php on line 896 and exactly 1 expected
+in FCPATH\modules\Admin\Controllers\index.php on line 783.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->savepermission()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 15:16:44 --> Undefined property: Modules\Admin\Controllers\Index::$dept_model
+in FCPATH\modules\Admin\Controllers\index.php on line 821.
+ 1 FCPATH\modules\Admin\Controllers\index.php(821): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$dept_model', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 821, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->savepermission()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 15:45:20 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 15:45:20 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_roles_accesses  where role_id = addrole ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 4 APPPATH\Models\admin_roles_accesses_model.php(66): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 5 FCPATH\modules\Admin\Controllers\index.php(507): App\Models\Admin_Roles_Accesses_Model->view('addrole')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->access('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 15:59:04 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 15:59:04 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_roles_accesses  where role_id = addrole ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 4 APPPATH\Models\admin_roles_accesses_model.php(66): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_roles_accesses  where role_id = addrole ')
+ 5 FCPATH\modules\Admin\Controllers\index.php(507): App\Models\Admin_Roles_Accesses_Model->view('addrole')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->access('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 16:15:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'add AND  status_ind = 1' at line 1
+CRITICAL - 2022-09-02 16:15:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'add AND  status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = add AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('add')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 16:21:22 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 16:21:22 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 17:04:27 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 17:04:27 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 17:06:18 --> Unknown column 'addrole' in 'where clause'
+CRITICAL - 2022-09-02 17:06:18 --> Unknown column 'addrole' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 4 APPPATH\Models\Admin_Users.php(152): CodeIgniter\Database\BaseConnection->query('SELECT *   FROM admin_users  where user_id = addrole AND  status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\index.php(747): App\Models\Admin_Users->session_id()
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->permission('addrole')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 18:33:27 --> Array to string conversion
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 11.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(82): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 18:38:59 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 9.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(79): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:06:39 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:07:28 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:07:30 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:08:33 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:08:52 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:10:21 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 142.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:14:06 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:15:09 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:15:11 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:15:20 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:16:15 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 137.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(258): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:19:58 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(372): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->savenewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 19:20:25 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnewroles.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnewroles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnewroles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnewroles', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(372): view('Modules\\Admin\\Views\\pages\\addnewroles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->savenewroles()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 20:19:14 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\datatable.php on line 145.
+ 1 FCPATH\modules\Admin\Views\pages\datatable.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\datatable.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\datatable.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\datatable', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(149): view('Modules\\Admin\\Views\\pages\\datatable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

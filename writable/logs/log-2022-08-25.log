@@ -1,0 +1,67 @@
+CRITICAL - 2022-08-25 14:26:47 --> preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0', 'SYSTEMPATH\\Router\\Router.php', 418, [...])
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^\\Modules\\Admin\\Controllers\\Admindashboard$#u', 'Auth/assets/img/brand/favicon.png', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('Auth/assets/img/brand/favicon.png')
+ 4 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('/Auth/assets/img/brand/favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 14:27:59 --> preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0', 'SYSTEMPATH\\Router\\Router.php', 418, [...])
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^\\Modules\\Admin\\Controllers\\Admindashboard$#u', 'modules/Admin/Controllers/Admindashboard', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('modules/Admin/Controllers/Admindashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('/modules/Admin/Controllers/Admindashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 14:42:35 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/Modules/Admin/Controllers/Auth::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Modules/Admin/Controllers/Auth::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('adminlogin')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('/adminlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 14:44:30 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \Modules\Admin\Controllers\/Auth::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\Modules\\Admin\\Controllers\\/Auth::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('adminlogin')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('/adminlogin')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 15:02:03 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 9.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(60): view('Modules\\Admin\\Views\\auth\\logintwo')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->logout()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 15:03:52 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 9.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(61): view('Modules\\Admin\\Views\\auth\\logintwo')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->logout()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 15:04:11 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 9.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(61): view('Modules\\Admin\\Views\\auth\\logintwo')
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->logout()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

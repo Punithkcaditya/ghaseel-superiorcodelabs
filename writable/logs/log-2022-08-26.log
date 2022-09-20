@@ -1,0 +1,624 @@
+CRITICAL - 2022-08-26 12:49:02 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 46.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 12:49:22 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 46.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 12:49:24 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 46.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:03:33 --> Undefined property: Modules\Admin\Controllers\Index::$load
+in FCPATH\modules\Admin\Controllers\index.php on line 16.
+ 1 FCPATH\modules\Admin\Controllers\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$load', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): Modules\Admin\Controllers\Index->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:07:35 --> Access level to Modules\Admin\Models\Admin_Users_Model::$db must be protected (as in class CodeIgniter\Model) or weaker
+in FCPATH\modules\Admin\Models\admin_users_model.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-26 14:08:39 --> Undefined property: Modules\Admin\Controllers\Index::$session
+in FCPATH\modules\Admin\Controllers\index.php on line 25.
+ 1 FCPATH\modules\Admin\Controllers\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:13:39 --> Undefined property: Modules\Admin\Controllers\Index::$load
+in FCPATH\modules\Admin\Controllers\index.php on line 17.
+ 1 FCPATH\modules\Admin\Controllers\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$load', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 17, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): Modules\Admin\Controllers\Index->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:15:03 --> Undefined property: Modules\Admin\Controllers\Index::$session
+in FCPATH\modules\Admin\Controllers\index.php on line 25.
+ 1 FCPATH\modules\Admin\Controllers\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:16:55 --> Undefined property: Modules\Admin\Controllers\Index::$form_validation
+in FCPATH\modules\Admin\Controllers\index.php on line 26.
+ 1 FCPATH\modules\Admin\Controllers\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$form_validation', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:23:36 --> Undefined property: Modules\Admin\Controllers\Index::$session
+in FCPATH\modules\Admin\Controllers\index.php on line 25.
+ 1 FCPATH\modules\Admin\Controllers\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 14:35:01 --> Table 'payroll_db.modules\admin\models\admin_roles' doesn't exist
+CRITICAL - 2022-08-26 14:35:01 --> Table 'payroll_db.modules\admin\models\admin_roles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `modules\\admin\\models\\admin_roles`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `modules\\admin\\models\\admin_roles`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `modules\\admin\\models\\admin_roles`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `modules\\admin\\models\\admin_roles`', [], false)
+ 5 FCPATH\modules\Admin\Models\admin_roles_model.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH\modules\Admin\Controllers\index.php(59): Modules\Admin\Models\Admin_Roles_Model->viewrole()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 14:40:05 --> Table 'payroll_db.app\models\admin_roles' doesn't exist
+CRITICAL - 2022-08-26 14:40:05 --> Table 'payroll_db.app\models\admin_roles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `app\\models\\admin_roles`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `app\\models\\admin_roles`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `app\\models\\admin_roles`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `app\\models\\admin_roles`', [], false)
+ 5 APPPATH\Models\Admin_Roles_Model.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles_Model->viewrole()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 14:41:48 --> Table 'payroll_db.app\models\admin' doesn't exist
+CRITICAL - 2022-08-26 14:41:48 --> Table 'payroll_db.app\models\admin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `app\\models\\admin`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `app\\models\\admin`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `app\\models\\admin`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `app\\models\\admin`', [], false)
+ 5 APPPATH\Models\Admin_Roles.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 14:43:18 --> Table 'payroll_db.app\models\admin' doesn't exist
+CRITICAL - 2022-08-26 14:43:18 --> Table 'payroll_db.app\models\admin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `app\\models\\admin`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `app\\models\\admin`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `app\\models\\admin`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `app\\models\\admin`', [], false)
+ 5 APPPATH\Models\Admin_Roles.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:44:44 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Roles.php on line 49.
+ 1 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:51:17 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Roles.php on line 49.
+ 1 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:57:51 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Roles.php on line 51.
+ 1 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:00:09 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Roles.php on line 51.
+ 1 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:06:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Roles.php on line 50.
+ 1 FCPATH\modules\Admin\Controllers\index.php(59): App\Models\Admin_Roles->viewrole()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:11:00 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 9.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(61): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:14:05 --> Undefined variable: data
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 25.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(62): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:15:42 --> Undefined variable: data
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 25.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(62): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:16:08 --> Trying to get property 'role_id' of non-object
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 48.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'role_id\' of non-object', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(62): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:18:58 --> Trying to get property 'role_name' of non-object
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 48.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'role_name\' of non-object', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(62): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:20:32 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 47.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:25:14 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 47.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:25:16 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\auth\logintwo.php on line 47.
+ 1 FCPATH\modules\Admin\Views\auth\logintwo.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\auth\\logintwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\auth\\logintwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Auth.php(55): view('Modules\\Admin\\Views\\auth\\logintwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:25:36 --> Undefined property: Modules\Admin\Controllers\Index::$input
+in FCPATH\modules\Admin\Controllers\index.php on line 39.
+ 1 FCPATH\modules\Admin\Controllers\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$input', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:28:49 --> Undefined property: Modules\Admin\Controllers\Index::$input
+in FCPATH\modules\Admin\Controllers\index.php on line 39.
+ 1 FCPATH\modules\Admin\Controllers\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$input', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:29:36 --> Object of class Modules\Admin\Controllers\Index could not be converted to string
+in FCPATH\modules\Admin\Controllers\index.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:30:00 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in FCPATH\modules\Admin\Controllers\index.php on line 39.
+ 1 FCPATH\modules\Admin\Controllers\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:30:45 --> Undefined property: Modules\Admin\Controllers\Index::$input
+in FCPATH\modules\Admin\Controllers\index.php on line 40.
+ 1 FCPATH\modules\Admin\Controllers\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$input', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:31:00 --> Undefined property: Modules\Admin\Controllers\Index::$input
+in FCPATH\modules\Admin\Controllers\index.php on line 40.
+ 1 FCPATH\modules\Admin\Controllers\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$input', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:33:09 --> Undefined index: phone_number
+in FCPATH\modules\Admin\Models\admin_users_model.php on line 84.
+ 1 FCPATH\modules\Admin\Models\admin_users_model.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: phone_number', 'FCPATH\\modules\\Admin\\Models\\admin_users_model.php', 84, [...])
+ 2 FCPATH\modules\Admin\Controllers\index.php(41): Modules\Admin\Models\Admin_Users_Model->login([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 15:33:52 --> Table 'payroll_db.modules\admin\models\admin_users' doesn't exist
+CRITICAL - 2022-08-26 15:33:52 --> Table 'payroll_db.modules\admin\models\admin_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `modules\\admin\\models\\admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `modules\\admin\\models\\admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `modules\\admin\\models\\admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `modules\\admin\\models\\admin_users`', [], false)
+ 5 FCPATH\modules\Admin\Models\admin_users_model.php(89): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH\modules\Admin\Controllers\index.php(41): Modules\Admin\Models\Admin_Users_Model->login([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:37:38 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 89.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:41:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 89.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:44:04 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 89.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:45:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 89.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:46:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 89.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:49:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 90.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:52:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 90.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:52:17 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 90.
+ 1 FCPATH\modules\Admin\Controllers\index.php(41): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 15:59:46 --> Undefined property: Modules\Admin\Controllers\Index::$input
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 FCPATH\modules\Admin\Controllers\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$input', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:01:39 --> Undefined property: Modules\Admin\Controllers\Index::$session
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 FCPATH\modules\Admin\Controllers\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:02:59 --> Call to undefined method CodeIgniter\Session\Session::setUserdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:03:34 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:41:47 --> Undefined property: Modules\Admin\Controllers\Index::$session
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 FCPATH\modules\Admin\Controllers\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:44:28 --> Undefined index: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 FCPATH\modules\Admin\Controllers\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:45:06 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 16:53:47 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 17:36:39 --> Argument 1 passed to App\Models\Admin_Users::loginnew() must be of the type string, array given, called in C:\xampp\htdocs\ghaseel\modules\Admin\Controllers\index.php on line 40
+in APPPATH\Models\Admin_Users.php on line 111.
+ 1 FCPATH\modules\Admin\Controllers\index.php(40): App\Models\Admin_Users->loginnew([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 17:39:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a...' at line 1
+CRITICAL - 2022-08-26 17:39:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 4 APPPATH\Models\Admin_Users.php(117): CodeIgniter\Database\BaseConnection->query('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 5 FCPATH\modules\Admin\Controllers\index.php(40): App\Models\Admin_Users->loginnew([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 17:40:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a...' at line 1
+CRITICAL - 2022-08-26 17:40:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 4 APPPATH\Models\Admin_Users.php(117): CodeIgniter\Database\BaseConnection->query('SELECT a.*,   FROM admin_users where a.role_id = 1 AND  a.password = 21232f297a57a5a743894a0e4a801fc3 AND a.status_ind = 1 LEFT JOIN admin_roles ar ON a.role_id = ar.role_id')
+ 5 FCPATH\modules\Admin\Controllers\index.php(40): App\Models\Admin_Users->loginnew([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 17:44:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 107.
+ 1 FCPATH\modules\Admin\Controllers\index.php(40): App\Models\Admin_Users->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 17:56:26 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 17:57:39 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:02:23 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:02:50 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:03:53 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in FCPATH\modules\Admin\Controllers\index.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:05:17 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:06:25 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:06:51 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:08:09 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 18:16:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+CRITICAL - 2022-08-26 18:16:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*   FROM admin_users a LEFT JOIN admin_roles ar ON a.role_id = ar.role_id where a.role_id = 1 AND  a.password = "21232f297a57a5a743894a0e4a801fc3" AND a.status_ind = 1 AND a.email = sstfhennur@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*   FROM admin_users a LEFT JOIN admin_roles ar ON a.role_id = ar.role_id where a.role_id = 1 AND  a.password = "21232f297a57a5a743894a0e4a801fc3" AND a.status_ind = 1 AND a.email = sstfhennur@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*   FROM admin_users a LEFT JOIN admin_roles ar ON a.role_id = ar.role_id where a.role_id = 1 AND  a.password = "21232f297a57a5a743894a0e4a801fc3" AND a.status_ind = 1 AND a.email = sstfhennur@gmail.com')
+ 4 APPPATH\Models\Admin_Users.php(118): CodeIgniter\Database\BaseConnection->query('SELECT a.*   FROM admin_users a LEFT JOIN admin_roles ar ON a.role_id = ar.role_id where a.role_id = 1 AND  a.password = "21232f297a57a5a743894a0e4a801fc3" AND a.status_ind = 1 AND a.email = sstfhennur@gmail.com')
+ 5 FCPATH\modules\Admin\Controllers\index.php(40): App\Models\Admin_Users->loginnew([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:17:35 --> Array callback has to contain indices 0 and 1
+in FCPATH\modules\Admin\Controllers\index.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 18:18:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, null)
+ 4 FCPATH\modules\Admin\Controllers\index.php(53): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 18:29:17 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-26 18:29:17 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `admin_users` SET `user_session_id` = 13313775405272384
+WHERE `id` = (\'36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin_users` SET `user_session_id` = 13313775405272384
+WHERE `id` = (\'36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin_users` SET `user_session_id` = 13313775405272384
+WHERE `id` = (\'36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `admin_users` SET `user_session_id` = :user_session_id:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\Admin_Users.php(138): CodeIgniter\Database\BaseBuilder->update()
+ 6 FCPATH\modules\Admin\Controllers\index.php(53): App\Models\Admin_Users->updateData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:15:47 --> Undefined property: Modules\Admin\Controllers\Index::$data
+in FCPATH\modules\Admin\Controllers\index.php on line 78.
+ 1 FCPATH\modules\Admin\Controllers\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$data', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 78, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:24:29 --> Trying to access array offset on value of type null
+in FCPATH\modules\Admin\Controllers\index.php on line 83.
+ 1 FCPATH\modules\Admin\Controllers\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:25:38 --> Trying to access array offset on value of type null
+in FCPATH\modules\Admin\Controllers\index.php on line 81.
+ 1 FCPATH\modules\Admin\Controllers\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:34:19 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ghaseel\app\Models\Admin_Users.php on line 146
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 APPPATH\Models\Admin_Users.php(146): CodeIgniter\Database\BaseBuilder->get('admin_users')
+ 2 FCPATH\modules\Admin\Controllers\index.php(85): App\Models\Admin_Users->session_id()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:36:43 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\ghaseel\app\Models\Admin_Users.php on line 146
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 APPPATH\Models\Admin_Users.php(146): CodeIgniter\Database\BaseBuilder->get('admin_users')
+ 2 FCPATH\modules\Admin\Controllers\index.php(85): App\Models\Admin_Users->session_id()
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 19:37:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin_Users.php on line 147.
+ 1 FCPATH\modules\Admin\Controllers\index.php(85): App\Models\Admin_Users->session_id()
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

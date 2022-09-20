@@ -1,0 +1,185 @@
+ERROR - 2022-09-16 13:03:24 --> Unknown column 'product_description' in 'field list'
+CRITICAL - 2022-09-16 13:03:24 --> Unknown column 'product_description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `services` (`Service_thumbnail`, `Services`, `addservicesdescription`, `duration`, `product_description`, `status_ind`, `created_at`, `added_by`) VALUES (\'th.jpg\', \'Chain Bearing Cleaning\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'2\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'1\', \'2022-09-16\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `services` (`Service_thumbnail`, `Services`, `addservicesdescription`, `duration`, `product_description`, `status_ind`, `created_at`, `added_by`) VALUES (\'th.jpg\', \'Chain Bearing Cleaning\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'2\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'1\', \'2022-09-16\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `services` (`Service_thumbnail`, `Services`, `addservicesdescription`, `duration`, `product_description`, `status_ind`, `created_at`, `added_by`) VALUES (\'th.jpg\', \'Chain Bearing Cleaning\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'2\', \'<p>We Clean Every nooks and corner with durability</p>\\r\\n\', \'1\', \'2022-09-16\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `services` (`Service_thumbnail`, `Services`, `addservicesdescription`, `duration`, `product_description`, `status_ind`, `created_at`, `added_by`) VALUES (:Service_thumbnail:, :Services:, :addservicesdescription:, :duration:, :product_description:, :status_ind:, :created_at:, :added_by:)', [...], false)
+ 5 FCPATH\modules\Admin\Controllers\Servicelist.php(300): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Servicelist->savenewserviceinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Servicelist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 13:15:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 13:15:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompany.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompany->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompany))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 13:23:06 --> Invalid file: Modules\Admin\Views\pages\services\addnewservicestwo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Admin\\Views\\pages\\services\\addnewservicestwo.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\services\\addnewservicestwo', [], true)
+ 3 FCPATH\modules\Admin\Controllers\Servicelist.php(361): view('Modules\\Admin\\Views\\pages\\services\\addnewservicestwo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Servicelist->edit_service('44')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Servicelist))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 13:23:26 --> Undefined variable: pade_title3
+in FCPATH\modules\Admin\Views\pages\servicestwo\addnewservicestwo.php on line 182.
+ 1 FCPATH\modules\Admin\Views\pages\servicestwo\addnewservicestwo.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pade_title3', 'FCPATH\\modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo.php', 182, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Servicelist.php(361): view('Modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Servicelist->edit_service('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Servicelist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 13:24:24 --> Undefined property: stdClass::$product_description
+in FCPATH\modules\Admin\Views\pages\servicestwo\addnewservicestwo.php on line 242.
+ 1 FCPATH\modules\Admin\Views\pages\servicestwo\addnewservicestwo.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$product_description', 'FCPATH\\modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo.php', 242, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Servicelist.php(362): view('Modules\\Admin\\Views\\pages\\servicestwo\\addnewservicestwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Servicelist->edit_service('44')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Servicelist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 13:44:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 13:44:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompany.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompany->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompany))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 13:45:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 13:45:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompany.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompany->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompany))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 13:56:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 13:56:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompany.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompany->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompany))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 14:00:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 14:00:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompany.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompany->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompany))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 14:15:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 14:15:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 14:20:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 14:20:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 14:59:59 --> Undefined property: stdClass::$tagsname
+in FCPATH\modules\Admin\Views\pages\companylist\companylist.php on line 179.
+ 1 FCPATH\modules\Admin\Views\pages\companylist\companylist.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$tagsname', 'FCPATH\\modules\\Admin\\Views\\pages\\companylist\\companylist.php', 179, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\companylist\\companylist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\companylist\\companylist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(100): view('Modules\\Admin\\Views\\pages\\companylist\\companylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 15:00:42 --> Undefined property: stdClass::$tagsname
+in FCPATH\modules\Admin\Views\pages\companylist\companylist.php on line 179.
+ 1 FCPATH\modules\Admin\Views\pages\companylist\companylist.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$tagsname', 'FCPATH\\modules\\Admin\\Views\\pages\\companylist\\companylist.php', 179, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\companylist\\companylist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\companylist\\companylist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(100): view('Modules\\Admin\\Views\\pages\\companylist\\companylist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 15:16:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 15:16:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 15:27:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 15:27:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 15:54:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+CRITICAL - 2022-09-16 15:54:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status_ind = 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT * from locations  where city_id =  and status_ind = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 4 APPPATH\Models\Locations.php(26): CodeIgniter\Database\BaseConnection->query(' SELECT * from locations  where city_id =  and status_ind = 1')
+ 5 FCPATH\modules\Admin\Controllers\Addcompanylist.php(192): App\Models\Locations->dependentdata([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Addcompanylist->depedentselecttwo()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Addcompanylist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

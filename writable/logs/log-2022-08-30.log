@@ -1,0 +1,456 @@
+CRITICAL - 2022-08-30 12:04:59 --> Trying to access array offset on value of type null
+in FCPATH\modules\Admin\Controllers\index.php on line 84.
+ 1 FCPATH\modules\Admin\Controllers\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:06:44 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 91.
+ 1 FCPATH\modules\Admin\Controllers\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:06:46 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 91.
+ 1 FCPATH\modules\Admin\Controllers\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:07:16 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 91.
+ 1 FCPATH\modules\Admin\Controllers\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:07:17 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 91.
+ 1 FCPATH\modules\Admin\Controllers\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:09:26 --> Undefined property: Modules\Admin\Controllers\Index::$data
+in FCPATH\modules\Admin\Controllers\index.php on line 116.
+ 1 FCPATH\modules\Admin\Controllers\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$data', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 116, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:13:12 --> Undefined property: Modules\Admin\Controllers\Index::$class_name
+in FCPATH\modules\Admin\Controllers\index.php on line 118.
+ 1 FCPATH\modules\Admin\Controllers\index.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$class_name', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 12:51:13 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\datatable.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\datatable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\datatable.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\datatable.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\datatable', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(141): view('Modules\\Admin\\Views\\pages\\datatable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:09:11 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 126.
+ 1 FCPATH\modules\Admin\Controllers\index.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:10:13 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 129.
+ 1 FCPATH\modules\Admin\Controllers\index.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 129, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:11:39 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 129.
+ 1 FCPATH\modules\Admin\Controllers\index.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 129, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:12:17 --> Trying to access array offset on value of type null
+in FCPATH\modules\Admin\Controllers\index.php on line 120.
+ 1 FCPATH\modules\Admin\Controllers\index.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:13:21 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 132.
+ 1 FCPATH\modules\Admin\Controllers\index.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:14:19 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 132.
+ 1 FCPATH\modules\Admin\Controllers\index.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:14:21 --> Undefined variable: user_id
+in FCPATH\modules\Admin\Controllers\index.php on line 132.
+ 1 FCPATH\modules\Admin\Controllers\index.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_id', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:46:34 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 146.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(184): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:47:05 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 146.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(184): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 13:47:18 --> Undefined variable: request
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 149.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(184): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:05:23 --> Undefined index: id
+in FCPATH\modules\Admin\Views\pages\datatable.php on line 166.
+ 1 FCPATH\modules\Admin\Views\pages\datatable.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'FCPATH\\modules\\Admin\\Views\\pages\\datatable.php', 166, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\datatable.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\datatable', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(147): view('Modules\\Admin\\Views\\pages\\datatable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:05:51 --> Undefined index: code
+in FCPATH\modules\Admin\Views\pages\datatable.php on line 167.
+ 1 FCPATH\modules\Admin\Views\pages\datatable.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: code', 'FCPATH\\modules\\Admin\\Views\\pages\\datatable.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\datatable.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\datatable', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(147): view('Modules\\Admin\\Views\\pages\\datatable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:06:51 --> Undefined variable: departments
+in FCPATH\modules\Admin\Views\pages\datatable.php on line 171.
+ 1 FCPATH\modules\Admin\Views\pages\datatable.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: departments', 'FCPATH\\modules\\Admin\\Views\\pages\\datatable.php', 171, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\datatable.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\datatable', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(147): view('Modules\\Admin\\Views\\pages\\datatable', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:26:24 --> Trying to get property 'rolename' of non-object
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 181.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'rolename\' of non-object', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(186): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:28:09 --> Trying to get property 'role_name' of non-object
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 181.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'role_name\' of non-object', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(186): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 14:29:07 --> Call to undefined function set_value()
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 4 FCPATH\modules\Admin\Controllers\index.php(186): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:09:14 --> Undefined variable: name
+in FCPATH\modules\Admin\Controllers\index.php on line 197.
+ 1 FCPATH\modules\Admin\Controllers\index.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 197, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:14:25 --> Undefined property: Modules\Admin\Controllers\Index::$auth_model
+in FCPATH\modules\Admin\Controllers\index.php on line 206.
+ 1 FCPATH\modules\Admin\Controllers\index.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Index::$auth_model', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 206, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:15:21 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 145.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(186): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:15:39 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 145.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(186): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:18:45 --> Undefined variable: session
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 145.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(188): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addNew()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:23:33 --> Allowed fields must be specified for model: App\Models\Admin_Users
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin_Users')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 FCPATH\modules\Admin\Controllers\index.php(212): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:42:16 --> Undefined variable: session
+in FCPATH\modules\Admin\Controllers\index.php on line 195.
+ 1 FCPATH\modules\Admin\Controllers\index.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 195, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:42:44 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 210.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:44:16 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 210.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:45:00 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:45:22 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:45:25 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:45:46 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:46:48 --> Function name must be a string
+in FCPATH\modules\Admin\Controllers\index.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:48:19 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(234): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:49:23 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(235): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:54:19 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(235): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 15:56:03 --> Undefined variable: roles
+in FCPATH\modules\Admin\Views\pages\addnew.php on line 189.
+ 1 FCPATH\modules\Admin\Views\pages\addnew.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roles', 'FCPATH\\modules\\Admin\\Views\\pages\\addnew.php', 189, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\addnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(235): view('Modules\\Admin\\Views\\pages\\addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 16:59:57 --> Invalid file: Modules\Admin\Views\pages\add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Admin\\Views\\pages\\add.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\add', [], true)
+ 3 FCPATH\modules\Admin\Controllers\index.php(236): view('Modules\\Admin\\Views\\pages\\add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->addnewuser()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 18:22:14 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-30 18:22:14 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `admin_users`
+WHERE `id` = \'62\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `admin_users`
+WHERE `id` = \'62\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `admin_users`
+WHERE `id` = \'62\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `admin_users`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 FCPATH\modules\Admin\Controllers\index.php(255): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_delete('62')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:12:23 --> Undefined variable: data
+in FCPATH\modules\Admin\Views\pages\editnew.php on line 138.
+ 1 FCPATH\modules\Admin\Views\pages\editnew.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'FCPATH\\modules\\Admin\\Views\\pages\\editnew.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\editnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\editnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(315): view('Modules\\Admin\\Views\\pages\\editnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:15:29 --> array_merge(): Expected parameter 2 to be an array, string given
+in FCPATH\modules\Admin\Controllers\index.php on line 312.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 2 to be an array, string given', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 312, [...])
+ 2 FCPATH\modules\Admin\Controllers\index.php(312): array_merge([...], 'User/adminroles/form')
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:16:41 --> array_merge(): Expected parameter 2 to be an array, string given
+in FCPATH\modules\Admin\Controllers\index.php on line 313.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 2 to be an array, string given', 'FCPATH\\modules\\Admin\\Controllers\\index.php', 313, [...])
+ 2 FCPATH\modules\Admin\Controllers\index.php(313): array_merge([...], 'User/adminroles/form')
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:19:16 --> Undefined variable: returnArr
+in FCPATH\modules\Admin\Views\pages\editnew.php on line 138.
+ 1 FCPATH\modules\Admin\Views\pages\editnew.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: returnArr', 'FCPATH\\modules\\Admin\\Views\\pages\\editnew.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\editnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\editnew', [...], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(320): view('Modules\\Admin\\Views\\pages\\editnew', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:19:40 --> Undefined variable: returnArr
+in FCPATH\modules\Admin\Views\pages\editnew.php on line 138.
+ 1 FCPATH\modules\Admin\Views\pages\editnew.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: returnArr', 'FCPATH\\modules\\Admin\\Views\\pages\\editnew.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\editnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\editnew', [...], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(320): view('Modules\\Admin\\Views\\pages\\editnew', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:19:56 --> Undefined variable: first_name
+in FCPATH\modules\Admin\Views\pages\editnew.php on line 138.
+ 1 FCPATH\modules\Admin\Views\pages\editnew.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: first_name', 'FCPATH\\modules\\Admin\\Views\\pages\\editnew.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\editnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\editnew', [...], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(320): view('Modules\\Admin\\Views\\pages\\editnew', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('28', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 20:29:12 --> Undefined variable: first_name
+in FCPATH\modules\Admin\Views\pages\editnew.php on line 138.
+ 1 FCPATH\modules\Admin\Views\pages\editnew.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: first_name', 'FCPATH\\modules\\Admin\\Views\\pages\\editnew.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\editnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\editnew', [], true)
+ 5 FCPATH\modules\Admin\Controllers\index.php(319): view('Modules\\Admin\\Views\\pages\\editnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Index->user_edit('23', 'C:\\xampp\\htdocs\\ghaseel')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Index))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
