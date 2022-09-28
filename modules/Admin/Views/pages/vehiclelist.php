@@ -1,4 +1,4 @@
-<?= $this->extend('layouts/mainthird') ?>
+<?= $this->extend('layouts/mainsecond') ?>
 
 
 <?= $this->section('content') ?>
@@ -129,7 +129,7 @@
 							</ol>
 							<div class="btn-group mb-0">
 								<a href="<?php echo base_url(); ?>/addNewCars">
-									<button type="button" class="btn btn-primary btn-sm">Add New User</button>
+									<button type="button" class="btn btn-primary btn-sm">Add New Vehicle</button>
 								</a>
 							</div>
 						</div>
@@ -174,7 +174,7 @@
 														<tr>
 															<th><?= $i++ ?></th>
 															<td><?= $row['vehicle_name'] ?></td>
-															<td style="text-align: center;"> <img style="width: 139px;" id="blah" src="<?= base_url("uploads/" . $row['name']) ?>" /> </td>
+															<td style="text-align: center;"> <img style="max-width: 139px;" id="blah" src="<?= base_url("uploads/" . $row['name']) ?>" /> </td>
 															<td>
 
 																<a href="<?= base_url('vehicle_edit/' . $row['id']) ?>" class="mx-2 text-decoration-none text-primary"><i class="fa fa-edit"></i></a>
@@ -218,4 +218,4 @@
 </div>
 <!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
-<?= $this->endSection() ?><?= $this->extend('layouts/mainsecond') ?>
+<?= $this->endSection() ?>
