@@ -1,0 +1,94 @@
+ERROR - 2022-09-26 12:31:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-09-26 12:31:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Cities.php(33): CodeIgniter\Database\BaseConnection->query('SELECT ar.*,u.locations_name as locations_name, GROUP_CONCAT(locations_name) as differentlocations from cities as ar LEFT JOIN locations as u ON ar.id = u.city_id where ar.status_ind = 1 GROUP BY ar.id, ar.city_name')
+ 3 FCPATH\modules\Admin\Controllers\Vehicleselect.php(25): App\Models\Cities->viewcities()
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Vehicleselect->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Vehicleselect))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 13:29:58 --> Undefined property: Modules\Admin\Controllers\Brandslist::$company_users
+in FCPATH\modules\Admin\Controllers\Brandslist.php on line 84.
+ 1 FCPATH\modules\Admin\Controllers\Brandslist.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Admin\\Controllers\\Brandslist::$company_users', 'FCPATH\\modules\\Admin\\Controllers\\Brandslist.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 13:30:24 --> Undefined variable: cars
+in FCPATH\modules\Admin\Views\pages\brands\brandlist.php on line 186.
+ 1 FCPATH\modules\Admin\Views\pages\brands\brandlist.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cars', 'FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php', 186, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\brands\\brandlist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Brandslist.php(96): view('Modules\\Admin\\Views\\pages\\brands\\brandlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 13:52:10 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 FCPATH\modules\Admin\Controllers\Brandslist.php(267): redirect('brandlist')
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->savebrands()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:00:45 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 FCPATH\modules\Admin\Controllers\Brandslist.php(267): redirect('brandlist')
+ 4 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->savebrands()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:02:17 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 FCPATH\modules\Admin\Controllers\Brandslist.php(267): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->savebrands()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:02:39 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\ghaseel')
+ 2 FCPATH\modules\Admin\Controllers\Brandslist.php(267): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->savebrands()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:03:52 --> Undefined variable: menuslinks
+in FCPATH\modules\Admin\Views\pages\brands\brandlist.php on line 20.
+ 1 FCPATH\modules\Admin\Views\pages\brands\brandlist.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menuslinks', 'FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\brands\\brandlist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Brandslist.php(267): view('Modules\\Admin\\Views\\pages\\brands\\brandlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->savebrands()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:13:24 --> Undefined variable: cars
+in FCPATH\modules\Admin\Views\pages\vehiclelist.php on line 173.
+ 1 FCPATH\modules\Admin\Views\pages\vehiclelist.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cars', 'FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php', 173, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\vehiclelist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\vehiclelist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Brandslist.php(315): view('Modules\\Admin\\Views\\pages\\vehiclelist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->brand_delete('6')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:21:42 --> Creating default object from empty value
+in FCPATH\modules\Admin\Controllers\Brandslist.php on line 338.
+ 1 FCPATH\modules\Admin\Controllers\Brandslist.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'FCPATH\\modules\\Admin\\Controllers\\Brandslist.php', 338, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->brand_edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

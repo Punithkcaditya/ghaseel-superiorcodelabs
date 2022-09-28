@@ -82,7 +82,7 @@ class Addcompanylist extends BaseController
             $_SESSION['sidebar_menuitems'] = (!empty($_SESSION['sidebar_menuitems'])) ? $_SESSION['sidebar_menuitems'] : $side_menu_roles;
         }
         $data['session'] = $session;
-        $data['title'] = 'Companyy Details';
+        $data['title'] = 'Company Details';
         $data['company'] = $this
             ->company_users
             ->viewcompany();

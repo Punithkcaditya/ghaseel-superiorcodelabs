@@ -24,6 +24,10 @@ $routes->get('addtocart', '\Modules\Admin\Controllers\addtocartcontroller');
 $routes->get('productload_cart', '\Modules\Admin\Controllers\addtocartcontroller::load_cart');
 $routes->get('servicelist', '\Modules\Admin\Controllers\Servicelist');
 $routes->get('servicelistwo', '\Modules\Admin\Controllers\Servicelist::addNewServices');
+$routes->get('brandslist', '\Modules\Admin\Controllers\Brandslist');
+$routes->get('addNewBrands', '\Modules\Admin\Controllers\Brandslist::addNewBrands');
+
+
 
 $routes->match(['post'], 'addnewuser', 'index::addnewuser');
 $routes->match(['post'], 'savenewroles', 'index::savenewroles');
@@ -43,6 +47,7 @@ $routes->match(['post'], 'savenewproductinfo', '\Modules\Admin\Controllers\AddPr
 $routes->match(['post'], '/productadd_to_cart', '\Modules\Admin\Controllers\addtocartcontroller::add_to_cart');
 $routes->match(['post'], '/productdelete_cart', '\Modules\Admin\Controllers\addtocartcontroller::delete_cart');
 $routes->match(['post'], 'savenewserviceinfo', '\Modules\Admin\Controllers\Servicelist::savenewserviceinfo');
+$routes->match(['post'], 'savebrands', '\Modules\Admin\Controllers\Brandslist::savebrands');
 
 $routes->get('vehicleaddition', '\Modules\Admin\Controllers\index::vehicleaddition');
 $routes->get('city', '\Modules\Admin\Controllers\Addcities');
@@ -59,6 +64,7 @@ $routes->get('company_delete/(:any)', '\Modules\Admin\Controllers\Addcompany::co
 $routes->get('service_delete/(:any)', '\Modules\Admin\Controllers\Addservices::service_delete/$1');
 $routes->get('delete_service/(:any)', '\Modules\Admin\Controllers\Servicelist::service_delete/$1');
 $routes->get('product_delete/(:any)', '\Modules\Admin\Controllers\AddProduct::product_delete/$1');
+$routes->get('brand_delete/(:any)', '\Modules\Admin\Controllers\Brandslist::brand_delete/$1');
 
 
 $routes->get('access/(:any)', '\Modules\Admin\Controllers\index::access/$1');
@@ -74,5 +80,15 @@ $routes->get('edit_company/(:segment)', '\Modules\Admin\Controllers\Addcompanyli
 $routes->get('service_edit/(:segment)', '\Modules\Admin\Controllers\Addservices::service_edit/$1');
 $routes->get('product_edit/(:segment)', '\Modules\Admin\Controllers\AddProduct::product_edit/$1');
 $routes->get('edit_service/(:segment)', '\Modules\Admin\Controllers\Servicelist::edit_service/$1');
+$routes->get('brand_edit/(:segment)', '\Modules\Admin\Controllers\Brandslist::brand_edit/$1');
 
 // $routes->match(['post'], 'user_edit/(:num)', 'Modules\Admin\Controllers\index::user_edit/$1');
+
+
+
+// ghaseel front end
+
+
+$routes->get('vehicleselect', '\Modules\Admin\Controllers\Vehicleselect');
+$routes->get('brands', '\Modules\Admin\Controllers\Vehicleselect::brands');
+$routes->match(['post'], '/locate', '\Modules\Admin\Controllers\Vehicleselect::locate');
