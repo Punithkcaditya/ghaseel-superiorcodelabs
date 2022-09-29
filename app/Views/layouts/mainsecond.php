@@ -58,14 +58,26 @@
 <body class="app sidebar-mini rtl" >
 <?= $this->renderSection('content') ?>
 
+
 <script type="text/javascript" src="<?php echo base_url('assets/plugins/jquery/dist/jquery.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
+
+	<!-- Data tables -->
+	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/jquery.dataTables.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/dataTables.bootstrap4.min.js'); ?>"></script>
+
+
+
+
+
+
+<script type="text/javascript" src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
 
     <!-- multiple select -->
 	
 
     <!-- multiple select end -->
     <script type="text/javascript" src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.min.js'); ?>"></script>
+
 
 
 	<!-- Echarts JS -->
@@ -96,9 +108,7 @@
     <script type="text/javascript" src="<?php echo base_url('assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js'); ?>"></script>
 
     <script type="text/javascript" src="<?php echo base_url('assets/js/dashboard2map.js'); ?>"></script>
-	<!-- Data tables -->
-	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/jquery.dataTables.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/dataTables.bootstrap4.min.js'); ?>"></script>
+
 
 	<!-- Ansta JS -->
     <script type="text/javascript" src="<?php echo base_url('assets/js/custom.js'); ?>"></script>
@@ -109,26 +119,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- multi sect -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-	<script>
-		$(function(e) {
-			$('#example').DataTable();
 
-			var table = $('#example1').DataTable();
-			$('button').click( function() {
-				var data = table.$('input, select').serialize();
-				alert(
-					"The following data would have been submitted to the server: \n\n"+
-					data.substr( 0, 120 )+'...'
-				);
-				return false;
-			});
-			$('#example2').DataTable( {
-				"scrollY":        "200px",
-				"scrollCollapse": true,
-				"paging":         false
-			});
-		} );
 
-	</script>
 </body>
 </html>
