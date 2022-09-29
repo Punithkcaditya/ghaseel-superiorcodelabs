@@ -35,7 +35,9 @@
 
 	<!-- Custom scroll bar css-->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/customscroll/jquery.mCustomScrollbar.css'); ?>">
-
+	
+    <!-- Data table css -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/datatable/dataTables.bootstrap4.min.css'); ?>"  >
 
 	<!-- Sidemenu Css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/toggle-sidebar/css/sidemenu.css'); ?>">
@@ -56,14 +58,26 @@
 <body class="app sidebar-mini rtl" >
 <?= $this->renderSection('content') ?>
 
+
 <script type="text/javascript" src="<?php echo base_url('assets/plugins/jquery/dist/jquery.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
+
+	<!-- Data tables -->
+	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/jquery.dataTables.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/plugins/datatable/dataTables.bootstrap4.min.js'); ?>"></script>
+
+
+
+
+
+
+<script type="text/javascript" src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
 
     <!-- multiple select -->
 	
 
     <!-- multiple select end -->
     <script type="text/javascript" src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.min.js'); ?>"></script>
+
 
 
 	<!-- Echarts JS -->
@@ -105,6 +119,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- multi sect -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
 
 </body>
 </html>

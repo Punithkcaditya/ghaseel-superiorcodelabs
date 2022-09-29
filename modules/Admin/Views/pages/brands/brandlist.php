@@ -169,17 +169,19 @@
 												</thead>
 												<tbody>
 													<?php $i = 1;
+													$img = 'No_image_available.svg.png';
 													?>
 													<?php foreach ($brands as $row) : ?>
 														<tr>
 															<th><?= $i++ ?></th>
-															<td><?= $row['brand_name'] ?></td>
-															<td style="text-align: center;"> <img style="max-width: 139px;" id="blah" src="<?= base_url("uploads/" . $row['name']) ?>" /> </td>
+															<td><?= $row['model_name'] ?></td>
+															
+															<td style="text-align: center;"> <img style="max-width: 139px;" id="blah" src="<?=  !empty( $row['avatar']) ?  base_url("uploads/" . $row['avatar']):  base_url("uploads/" . $img) ?>" /> </td>
 															<td>
 
 																<a href="<?= base_url('brand_edit/' . $row['id']) ?>" class="mx-2 text-decoration-none text-primary"><i class="fa fa-edit"></i></a>
 
-																<a href="<?= base_url('brand_delete/' . $row['id']) ?>" class="mx-2 text-decoration-none text-danger" onclick="if(confirm('Are you sure to delete  - <?= $row['brand_name'] ?> from list?') !== true) event.preventDefault()"><i class="fa fa-trash"></i></a>
+																<a href="<?= base_url('brand_delete/' . $row['id']) ?>" class="mx-2 text-decoration-none text-danger" onclick="if(confirm('Are you sure to delete  - <?= $row['model_name'] ?> from list?') !== true) event.preventDefault()"><i class="fa fa-trash"></i></a>
 															</td>
 														</tr>
 													<?php endforeach; ?>
@@ -218,4 +220,5 @@
 </div>
 <!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
 <?= $this->endSection() ?>
