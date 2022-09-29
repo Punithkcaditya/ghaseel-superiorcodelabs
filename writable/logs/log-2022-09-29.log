@@ -1,0 +1,22 @@
+CRITICAL - 2022-09-29 13:13:04 --> Undefined index: brand_name
+in FCPATH\modules\Admin\Views\pages\brands\brandlist.php on line 176.
+ 1 FCPATH\modules\Admin\Views\pages\brands\brandlist.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: brand_name', 'FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\brands\\brandlist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Brandslist.php(96): view('Modules\\Admin\\Views\\pages\\brands\\brandlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:13:58 --> Undefined index: brand_name
+in FCPATH\modules\Admin\Views\pages\brands\brandlist.php on line 182.
+ 1 FCPATH\modules\Admin\Views\pages\brands\brandlist.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: brand_name', 'FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php', 182, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\modules\\Admin\\Views\\pages\\brands\\brandlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Modules\\Admin\\Views\\pages\\brands\\brandlist', [], true)
+ 5 FCPATH\modules\Admin\Controllers\Brandslist.php(96): view('Modules\\Admin\\Views\\pages\\brands\\brandlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): Modules\Admin\Controllers\Brandslist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Brandslist))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

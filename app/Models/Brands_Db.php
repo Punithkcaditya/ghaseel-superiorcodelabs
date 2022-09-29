@@ -7,15 +7,15 @@ use CodeIgniter\Model;
 
 class Brands_Db extends Model {
 
-    protected $table            = 'brands_db';
+    protected $table            = 'brand';
     protected $primaryKey       = 'id';
-    protected $allowedFields = ['brand_name', 'name', 'type' , 'created_at'];
+    protected $allowedFields = ['model_name', 'avatar',  'created_at'];
     public $data;
     protected $db;
     function __construct() {
         parent::__construct();
         $this->db = Database::connect();
-        $this->table = 'brands_db';
+        $this->table = 'brand';
         $this->primary_key = array();
         $this->data = array();
        
