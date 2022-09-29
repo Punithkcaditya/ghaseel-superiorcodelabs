@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 
 class Cars_Db extends Model {
 
-    protected $table            = 'cars_db';
+    protected $table            = 'vehicle_type';
     protected $primaryKey       = 'id';
     protected $allowedFields = ['vehicle_name', 'name', 'type' , 'created_at'];
     public $data;
@@ -15,7 +15,7 @@ class Cars_Db extends Model {
     function __construct() {
         parent::__construct();
         $this->db = Database::connect();
-        $this->table = 'cars_db';
+        $this->table = 'vehicle_type';
         $this->primary_key = array();
         $this->data = array();
        

@@ -169,12 +169,14 @@
 												</thead>
 												<tbody>
 													<?php $i = 1;
+													$img = 'No_image_available.svg.png';
 													?>
 													<?php foreach ($brands as $row) : ?>
 														<tr>
 															<th><?= $i++ ?></th>
 															<td><?= $row['model_name'] ?></td>
-															<td style="text-align: center;"> <img style="max-width: 139px;" id="blah" src="<?= base_url("uploads/" . $row['avatar']) ?>" /> </td>
+															
+															<td style="text-align: center;"> <img style="max-width: 139px;" id="blah" src="<?=  !empty( $row['avatar']) ?  base_url("uploads/" . $row['avatar']):  base_url("uploads/" . $img) ?>" /> </td>
 															<td>
 
 																<a href="<?= base_url('brand_edit/' . $row['id']) ?>" class="mx-2 text-decoration-none text-primary"><i class="fa fa-edit"></i></a>
